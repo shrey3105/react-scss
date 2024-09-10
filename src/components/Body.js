@@ -1,5 +1,11 @@
+import ProductLandingPage from "./ProductLandingPage";
+
 const Body = () => {
-  return <div className="Body">Body</div>;
+  return (
+    <div>
+      <ProductLandingPage></ProductLandingPage>
+    </div>
+  );
 };
 
 export default Body;
